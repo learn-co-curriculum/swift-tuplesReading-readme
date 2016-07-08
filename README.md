@@ -168,7 +168,7 @@ _Should_ it work? Think back to what you know about constants and variables. `pe
 
 Which makes sense, right? Constants can't change, and when you create a constant tuple, the individual parts of the tuple are considered to be constants, too. How could you fix this so that you _can_ change the individual elements?
 
-If you guessed "declare it to be a _variable_," you're right. When a constant is declared as a _variable_ (using the `var` keyword), its individual parts are variables, too, and you can change them. This code will work:
+If you guessed "declare it to be a _variable_," you're right. When a _variable_ is declared using the `var` keyword, its individual parts are variables, too, and you can change them. This code will work:
 
 ```swift
 var person2 = (name: "Jim", age: 30)
@@ -188,3 +188,5 @@ Tuples are a fairly simple data structure, but you won't see them a whole lot in
 They _are_ often used when iterating over dictionaries. Dictionaries associate a _key_ with a _value_, and when iterating over a dictionary, you get back a tuple describing this key/value pair. You'll learn about dictionaries in a future lesson, and you may find it useful to refer back to this lesson when working with a dictionary's key/value tuples.
 
 <a href='https://learn.co/lessons/Tuples' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-tuplesReading-readme'>Tuples</a> on Learn.co and start learning to code for free.</p>
